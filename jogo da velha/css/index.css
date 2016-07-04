@@ -1,0 +1,23 @@
+.panel {
+	margin-top: 10px;
+}
+.tabuleiro td {
+	width: 100px;
+    border: 1px solid #000;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.tabuleiro.ganhou {
+	opacity: 0.5;
+	background-color: green;
+	color: #fff;
+}
+.tabuleiro.perdeu {
+	opacity: 0.5;
+	background-color: red;
+	color: #fff;
+}
+.bloquear-clique {
+  pointer-events: none;
+}
